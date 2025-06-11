@@ -13,6 +13,7 @@ fun AppNavigation(navController: NavHostController) {
         composable("bmi_calculator") {
             BMICalculatorScreen(navController)
         }
+
         composable(
             route = "bmi_result/{bmi}",
             arguments = listOf(navArgument("bmi") { type = NavType.FloatType })

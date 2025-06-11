@@ -85,8 +85,8 @@ fun BMICalculatorScreen(navController: NavController) {
         Button(
             onClick = {
                 val heightInMeter = height / 100
-                val bmi = weight / (heightInMeter * heightInMeter)
-                navController.navigate("bmi_result/${"%.1f".format(bmi)}")
+                val bmi = weight / ((height / 100) * (height / 100))
+                navController.navigate("bmi_result/${bmi}")
             },
             modifier = Modifier
                 .fillMaxWidth()
