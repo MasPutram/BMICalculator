@@ -1,4 +1,4 @@
-package com.putra.bmicalculator.screen.components
+package com.putra_2303040131.bmicalculator.screen.components
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*

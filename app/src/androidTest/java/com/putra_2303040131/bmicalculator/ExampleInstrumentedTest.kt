@@ -1,4 +1,4 @@
-package com.putra.bmicalculator
+package com.putra_2303040131.bmicalculator
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.putra.bmicalculator"
+    namespace = "com.putra_2303040131.bmicalculator"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.putra.bmicalculator"
+        applicationId = "com.putra_2303040131.bmicalculator"
         minSdk = 24
         targetSdk = 35
         versionCode = 1

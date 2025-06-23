@@ -1,4 +1,4 @@
-package com.putra.bmicalculator.ui.theme
+package com.putra_2303040131.bmicalculator.ui.theme
 
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Shapes

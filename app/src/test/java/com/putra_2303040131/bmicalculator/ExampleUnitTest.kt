@@ -1,4 +1,4 @@
-package com.putra.bmicalculator
+package com.putra_2303040131.bmicalculator
 
 import org.junit.Test
 

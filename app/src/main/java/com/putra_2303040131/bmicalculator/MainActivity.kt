@@ -1,4 +1,4 @@
-package com.putra.bmicalculator
+package com.putra_2303040131.bmicalculator
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -6,8 +6,8 @@ import androidx.activity.compose.setContent
 import androidx.compose.material3.Surface
 import androidx.compose.material3.MaterialTheme
 import androidx.navigation.compose.rememberNavController
-import com.putra.bmicalculator.screen.AppNavigation
-import com.putra.bmicalculator.ui.theme.BMICalculatorTheme
+import com.putra_2303040131.bmicalculator.screen.AppNavigation
+import com.putra_2303040131.bmicalculator.ui.theme.BMICalculatorTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

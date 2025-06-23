@@ -1,4 +1,4 @@
-package com.putra.bmicalculator.screen.components
+package com.putra_2303040131.bmicalculator.screen.components
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
@@ -13,7 +13,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.compose.ui.draw.clip
-import com.putra.bmicalculator.ui.theme.CardSelected
+import com.putra_2303040131.bmicalculator.ui.theme.CardSelected
 
 @Composable
 fun NumberControlCard(

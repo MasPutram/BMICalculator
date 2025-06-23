@@ -1,4 +1,4 @@
-package com.putra.bmicalculator.screen
+package com.putra_2303040131.bmicalculator.screen
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
@@ -10,10 +10,10 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavController
-import com.putra.bmicalculator.screen.components.GenderCard
-import com.putra.bmicalculator.screen.components.HeightSlider
-import com.putra.bmicalculator.screen.components.NumberControlCard
-import com.putra.bmicalculator.R
+import com.putra_2303040131.bmicalculator.screen.components.GenderCard
+import com.putra_2303040131.bmicalculator.screen.components.HeightSlider
+import com.putra_2303040131.bmicalculator.screen.components.NumberControlCard
+import com.putra_2303040131.bmicalculator.R
 
 @Composable
 fun BMICalculatorScreen(navController: NavController) {
@@ -85,8 +85,8 @@ fun BMICalculatorScreen(navController: NavController) {
         Button(
             onClick = {
                 val heightInMeter = height / 100
-                val bmi = weight / ((height / 100) * (height / 100))
-                navController.navigate("bmi_result/${bmi}")
+                val bmi = weight / (heightInMeter * heightInMeter)
+                navController.navigate("result/${"%.1f".format(bmi)}/${selectedGender}")
             },
             modifier = Modifier
                 .fillMaxWidth()
@@ -97,3 +97,4 @@ fun BMICalculatorScreen(navController: NavController) {
         }
     }
 }
+

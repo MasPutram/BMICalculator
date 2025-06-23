@@ -1,4 +1,4 @@
-package com.putra.bmicalculator.ui.theme
+package com.putra_2303040131.bmicalculator.ui.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.font.FontFamily
